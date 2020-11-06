@@ -1,0 +1,23 @@
+VaultName: mariuskeyvault
+TenantID: "d0f87a52-2edb-412d-b30c-1b899f5eea0f"
+Location: "westeurope"
+SkuName:  "Standard"
+SkuFamily: "A"
+EnabledForDeployment: true
+EnabledForDiskEncryption: true
+EnabledForTemplateDeployment: true
+EnableSoftDelete: false
+SoftDeleteRetentionInDays: 7
+EnableRbacAuthorization: false
+Tags:
+  maintenance: "* * 232 0433"
+  owner: "Marius Stanescu"
+  type: "Testing"
+EnablePurgeProtection: false
+NetworkAcls:
+  DefaultAction: "Allow"
+  Bypass: "AzureServices"
+#  IPRules:
+#    - "109.103.79.208/32"
+#  VirtualNetworkRules:
+#    - "/subscriptions/396e7375-178b-47ed-9e8b-bb198a66b766/resourceGroups/marius-test-keyvault/providers/Microsoft.Network/virtualNetworks/testvnet/subnets/testsubnet"
